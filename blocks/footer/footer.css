@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   padding-bottom: 24px;
   padding-top: 92px;
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 
 @media (max-width: 1279px) {

@@ -1,4 +1,5 @@
 .place {
+  font-family: 'Inter', 'Arial', sans-serif;
   margin: 0;
   box-sizing: border-box;
   display: grid;
@@ -7,6 +8,7 @@
   column-gap: 40px;
   row-gap: 48px;
   padding-bottom: 80px;
+  justify-content: center;
 }
 
 .place:last-of-type {
@@ -28,7 +30,7 @@
 
 @media (max-width: 767px) {
   .place {
-    grid-template-columns: 1fr;
+    grid-template-columns: 320px;
     row-gap: 32px;
     padding-bottom: 50px;
   }
